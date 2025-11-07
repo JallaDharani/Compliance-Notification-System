@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+service_account.json
+credentials.json
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Uploads or large data folders
+uploads/
+dataset/
+
+# IDE folders
+.vscode/
+.idea/
